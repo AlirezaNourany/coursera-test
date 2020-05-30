@@ -1,0 +1,149 @@
+body {
+  font-size: 16px;
+  color: #000;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: rgb(255, 188, 62);
+  border-radius: 0;
+  border: 1px solid #000;
+}
+
+.navbar-brand {
+  margin: 10px;
+  font-size: 1.8em;
+  font-weight: bold;
+  font-family: 'Lora', serif;
+  color: #000;
+  text-decoration: none;
+}
+
+.navbar-brand a:hover {
+  cursor: pointer;
+}
+
+#nav-list {
+margin-top: 0;
+margin-bottom: 0;
+}
+#nav-list a {
+  text-align: center;
+  color: #000;
+  font-weight: bold;
+}
+#nav-list a:hover {
+  background: #000;
+  color: rgb(255, 10, 10);
+}
+.nabvar-nav > li > a {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.nav > li > a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-top: 1px solid black;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid #000;
+  color: #000;
+}
+.navbar-header button.navbar-toggle {
+  float: right;
+  margin-top: 20px;
+}
+.navbar-header button.navbar-toggle:hover, .navbar-header button.navbar-toggle:focus {
+background-color: rgb(255, 10, 10);
+}
+.navbar-collapse {
+  border-top: 0 solid transparent;
+}
+/* END HEADER */
+
+/* HOME PAGE */
+
+#menu h1 {
+  font-size: 2.2em;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+#home-tiles {
+  margin-bottom: 30px;
+}
+#home-tiles a {
+  text-decoration: none;
+  color: red;
+}
+#home-tiles h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+#home-tiles p {
+  font-size: 1.2em;
+  padding: 10px;
+  text-align: justify;
+}
+
+#chicken, #beef, #sushi {
+  width: 100%;
+  margin-bottom: 15px;
+  border: 1px solid #000;
+}
+#chiken:hover, #beef:hover, #sushi:hover {
+  box-shadow: 0 0 5px #cccccc;
+}
+
+
+/* END HOME PAGE */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding: 30px;
+    height: 80px;
+    margin: 0;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+  /* End Header */
+
+  /* Home Page */
+  #menu-tile, #specials-tile {
+    margin: 0 auto 15px;
+  }
+
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  
+  /* Home page */
+  #menu-tile, #specials-tile {
+    margin: 0 auto 15px;
+  }
+}
+
