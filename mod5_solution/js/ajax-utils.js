@@ -31,7 +31,7 @@
         request.onreadystatechange = function () {
             handleResponse(request, responseHandler, isJsonResponse);
         };
-        request.open("GET", requestUrl, true);
+        request.open("GET", https://alirezanourany.github.io/coursera-test/mod5_solution, true);
         request.send(null); // for POST only
     };
 
