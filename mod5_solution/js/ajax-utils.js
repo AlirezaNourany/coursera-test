@@ -13,10 +13,6 @@
             // For very old IE browsers (optional)
             return (new ActiveXObject("Microsoft.XMLHTTP"));
         }
-                else if (window.ActiveXObject) {
-            // For very old IE browsers (optional)
-            return (new ActiveXObject("Microsoft.XMLHTTPS"));
-        }
         else {
             global.alert("Ajax is not supported!");
             return (null);
@@ -31,7 +27,7 @@
         request.onreadystatechange = function () {
             handleResponse(request, responseHandler, isJsonResponse);
         };
-        request.open("GET", https://alirezanourany.github.io/coursera-test/mod5_solution, true);
+        request.open("GET", requestUrl , true);
         request.send(null); // for POST only
     };
 
