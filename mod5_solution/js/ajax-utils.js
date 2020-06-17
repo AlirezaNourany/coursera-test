@@ -32,7 +32,6 @@
             handleResponse(request, responseHandler, isJsonResponse);
         };
         request.open("GET", https://alirezanourany.github.io/coursera-test/mod5_solution, true);
-        request.open("GET", https://alirezanourany.github.io/coursera-test/mod5_solution/index.html, true);
         request.send(null); // for POST only
     };
 
